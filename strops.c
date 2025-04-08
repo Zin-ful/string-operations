@@ -105,7 +105,7 @@ void dsplit(const char *string, const char *delim, char *new_1, char *new_2) { /
 }
 
 
-int find(const char *string1, const char *string2) { //boolean
+int find(const char *string1, const char *string2) { //idk
     int j = 0;
     for (int i = 0; string1[i] != '\0'; i++) {
         while (string1[i] == string2[j]) {
@@ -229,3 +229,5 @@ char* disolate(const char *string1, char *string2, const char *isol) {
         string2[i] = string1[pos[i]];
       }
 }
+
+
